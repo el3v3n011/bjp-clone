@@ -6,7 +6,7 @@ import { mdiNavigation } from '@mdi/js';
 function Navbar() {
   return (
     <>
-      <div className="flex text-white justify-between ">
+      <div className="flex  text-white justify-between ">
         <div className="p-2 flex ">
           <img src={logo} alt="logo" className=" h-14" />
           <h3
@@ -18,10 +18,10 @@ function Navbar() {
         </div>
         <div className="left flex ">
         <div className="flex divide-x-2  my-auto ">
-          <div className="px-2">UPCOMING EVENTS</div>
-          <div className="px-2">MEDIA RESOURCES</div>
-          <div className="px-2">KAMAL SANDESH</div>
-          <div className="px-2"> BJP LIVE</div>
+          <div className="px-2 hover:text-bjp-orange">UPCOMING EVENTS</div>
+          <div className="px-2 hover:text-bjp-orange">MEDIA RESOURCES</div>
+          <div className="px-2 hover:text-bjp-orange">KAMAL SANDESH</div>
+          <div className="px-2 hover:text-bjp-orange"> BJP LIVE</div>
           <div className=""></div>
            
         </div>
